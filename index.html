@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang='pt-BR'><head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<meta http-equiv='refresh' content='300'>
+<title>Controle de Guarda-S&#243;is | Dashboard</title>
+<style>
+*{box-sizing:border-box}body{margin:0;font-family:Segoe UI,Arial,sans-serif;background:#eef1f5;color:#1f2d3d}
+.wrap{max-width:1180px;margin:0 auto;padding:0 16px 32px}
+header{background:#1f3a5f;color:#fff;padding:18px 22px;margin:0 -16px}header h1{margin:0;font-size:26px}
+.sub{display:flex;justify-content:space-between;flex-wrap:wrap;gap:6px;color:#55606e;font-size:14px;padding:8px 2px}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:0}
+.kpi{color:#fff;text-align:center;padding:14px 8px}.kpi small{display:block;font-size:12px;font-weight:700;letter-spacing:.3px}
+.kpi b{display:block;font-size:40px;margin-top:10px}
+.k0{background:#1f3a5f}.k1{background:#3a9d5d}.k2{background:#e8a13a}.k3{background:#e00000}.k4{background:#2e86a0}.k5{background:#23406a}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:16px;margin-top:16px}
+.card{background:#fff;border:1px solid #cfd6df;border-radius:14px;padding:14px 16px}.card h2{margin:0 0 8px;font-size:14px}
+svg{width:100%;height:auto;display:block}.leg{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:12px;margin-top:6px}
+.leg i{display:inline-block;width:10px;height:10px;margin-right:5px;border-radius:2px}
+table{width:100%;border-collapse:collapse;font-size:14px}th{background:#1f3a5f;color:#fff;padding:6px}
+td{text-align:center;padding:5px;border-bottom:1px solid #e1e6ec}.pill{display:inline-block;padding:2px 10px;border-radius:10px}
+.p1{background:#d9f0df;color:#1d6b38}.p2{background:#fde8c4;color:#8a5200}.p3{background:#ffd3d3;color:#a30000}.p0{background:#eee}
+.vazio{color:#7a8594;font-size:13px;padding:30px 0;text-align:center}.foot{color:#7a8594;font-size:12px;text-align:center;margin-top:16px}
+</style></head><body><div class='wrap'>
+<header><h1>Controle de Guarda-S&#243;is | Dashboard</h1></header>
+<div class='sub'><span>Atualizado em <b>05/10/2026 00:36</b></span><span><b>Prazo de devolu&#231;&#227;o: 48 horas</b></span></div>
+<div class='kpis'>
+<div class='kpi k0'><small>TOTAL DE GUARDA-S&#211;IS</small><b>10</b></div>
+<div class='kpi k1'><small>DISPON&#205;VEIS</small><b>9</b></div>
+<div class='kpi k2'><small>EM USO</small><b>1</b></div>
+<div class='kpi k3'><small>EM ATRASO AGORA</small><b>0</b></div>
+<div class='kpi k4'><small>DEVOLU&#199;&#213;ES NO PRAZO</small><b>0%</b></div>
+<div class='kpi k5'><small>TOTAL DE REGISTROS</small><b>1</b></div>
+</div>
+<div class='grid'>
+<div class='card'><h2>Registros por m&#234;s</h2>
+<svg viewBox='0 0 520 230' role='img' aria-label='Registros por mes'><line x1='34' x2='510' y1='202' y2='202' stroke='#e1e6ec'/><text x='28' y='206' font-size='11' text-anchor='end' fill='#55606e'>0</text><line x1='34' x2='510' y1='155' y2='155' stroke='#e1e6ec'/><text x='28' y='159' font-size='11' text-anchor='end' fill='#55606e'>.25</text><line x1='34' x2='510' y1='108' y2='108' stroke='#e1e6ec'/><text x='28' y='112' font-size='11' text-anchor='end' fill='#55606e'>.5</text><line x1='34' x2='510' y1='61' y2='61' stroke='#e1e6ec'/><text x='28' y='65' font-size='11' text-anchor='end' fill='#55606e'>.75</text><line x1='34' x2='510' y1='14' y2='14' stroke='#e1e6ec'/><text x='28' y='18' font-size='11' text-anchor='end' fill='#55606e'>1</text><rect x='242' y='14' width='60' height='188' rx='3' fill='#2e6da4'/><text x='272' y='10' font-size='11' text-anchor='middle' fill='#1f2d3d'>1</text><text x='272' y='220' font-size='11' text-anchor='middle' fill='#55606e'>Out/26</text></svg>
+</div>
+<div class='card'><h2>Atrasos x devolu&#231;&#245;es em dia</h2>
+<svg viewBox='0 0 42 42' style='max-width:260px;margin:0 auto' role='img' aria-label='Situacao'><circle cx='21' cy='21' r='15.9155' fill='none' stroke='#e6eaf0' stroke-width='6'/><circle cx='21' cy='21' r='15.9155' fill='none' stroke='#2e6da4' stroke-width='6' stroke-dasharray='100 0' stroke-dashoffset='25'/><text x='21' y='22.5' font-size='5' text-anchor='middle' fill='#1f2d3d'>1</text></svg><div class='leg'><span><i style='background:#3a9d5d'></i>Devolvido no prazo: <b>0</b></span><span><i style='background:#e8a13a'></i>Devolvido com atraso: <b>0</b></span><span><i style='background:#2e6da4'></i>Em uso (No prazo): <b>1</b></span><span><i style='background:#d9363e'></i>Em uso (Atrasado): <b>0</b></span></div>
+</div>
+<div class='card'><h2>Condi&#231;&#227;o na devolu&#231;&#227;o</h2>
+<svg viewBox='0 0 520 186' role='img' aria-label='Condicao na devolucao'><text x='80' y='28' font-size='13' text-anchor='end' fill='#1f2d3d'>&#211;timo</text><rect x='90' y='12' width='340' height='24' rx='4' fill='#e6eaf0'/><rect x='90' y='12' width='0' height='24' rx='4' fill='#3a9d5d'/><text x='440' y='29' font-size='13' fill='#1f2d3d'>0</text><text x='80' y='72' font-size='13' text-anchor='end' fill='#1f2d3d'>Bom</text><rect x='90' y='56' width='340' height='24' rx='4' fill='#e6eaf0'/><rect x='90' y='56' width='0' height='24' rx='4' fill='#2e86a0'/><text x='440' y='73' font-size='13' fill='#1f2d3d'>0</text><text x='80' y='116' font-size='13' text-anchor='end' fill='#1f2d3d'>Danificado</text><rect x='90' y='100' width='340' height='24' rx='4' fill='#e6eaf0'/><rect x='90' y='100' width='0' height='24' rx='4' fill='#e8a13a'/><text x='440' y='117' font-size='13' fill='#1f2d3d'>0</text><text x='80' y='160' font-size='13' text-anchor='end' fill='#1f2d3d'>Perdido</text><rect x='90' y='144' width='340' height='24' rx='4' fill='#e6eaf0'/><rect x='90' y='144' width='0' height='24' rx='4' fill='#d9363e'/><text x='440' y='161' font-size='13' fill='#1f2d3d'>0</text></svg>
+</div>
+<div class='card'><h2>Situa&#231;&#227;o de cada guarda-sol</h2>
+<table><tr><th>C&#243;digo</th><th>Status</th><th>Prazo</th><th>Situa&#231;&#227;o</th></tr>
+<tr><td>GS-01</td><td><span class='pill p2'>Em uso</span></td><td>07/10/2026 00:03</td><td>No prazo</td></tr>
+<tr><td>GS-02</td><td><span class='pill p1'>Dispon&#237;vel</span></td><td></td><td></td></tr>
+<tr><td>GS-03</td><td><span class='pill p1'>Dispon&#237;vel</span></td><td></td><td></td></tr>
+<tr><td>GS-04</td><td><span class='pill p1'>Dispon&#237;vel</span></td><td></td><td></td></tr>
+<tr><td>GS-05</td><td><span class='pill p1'>Dispon&#237;vel</span></td><td></td><td></td></tr>
+<tr><td>GS-06</td><td><span class='pill p1'>Dispon&#237;vel</span></td><td></td><td></td></tr>
+<tr><td>GS-07</td><td><span class='pill p1'>Dispon&#237;vel</span></td><td></td><td></td></tr>
+<tr><td>GS-08</td><td><span class='pill p1'>Dispon&#237;vel</span></td><td></td><td></td></tr>
+<tr><td>GS-09</td><td><span class='pill p1'>Dispon&#237;vel</span></td><td></td><td></td></tr>
+<tr><td>GS-10</td><td><span class='pill p1'>Dispon&#237;vel</span></td><td></td><td></td></tr>
+</table>
+</div></div>
+<div class='foot'>P&#225;gina somente para visualiza&#231;&#227;o. Os dados s&#227;o atualizados quando o arquivo &#233; republicado.</div>
+</div></body></html>
+
